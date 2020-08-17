@@ -9,6 +9,48 @@ namespace DrawObject
 {
     public class DrawObject
     {
+        [CommandMethod("DrawPLine")]
+        public void DrawPline()
+        {
+            // Create the drawing document and database object
+            Document doc = Application.DocumentManager.MdiActiveDocument;
+            Database db = doc.Database;
+
+            // Create the transaction object inside the using block
+            using (Transaction trans = db.TransactionManager.StartTransaction())
+            {
+                try
+                {
+                    // Message
+                    doc.Editor.WriteMessage("\nDrawing a polyline!");
+
+                    // Get the BlockTable object
+                    BlockTable bt;
+                    bt = trans.GetObject(db.BlockTableId, OpenMode.ForRead) as BlockTable;
+                    BlockTableRecord btr;
+                    btr = trans.GetObject(bt[BlockTableRecord.ModelSpace], OpenMode.ForWrite) as BlockTableRecord;
+
+                    // Specify the Poluline's coordinates
+                    Polyline pl = new Polyline();
+                    pl.AddVertexAt(0, new Point2d(0, 0), 0, 0, 0);
+                    pl.AddVertexAt(1, new Point2d(10, 10), 0, 0, 0);
+                    pl.AddVertexAt(1, new Point2d(20, 20), 0, 0, 0);
+                    pl.AddVertexAt(1, new Point2d(30, 30), 0, 0, 0);
+                    pl.AddVertexAt(1, new Point2d(40, 40), 0, 0, 0);
+                    pl.AddVertexAt(1, new Point2d(50, 50), 0, 0, 0);
+
+                    pl.SetDatabaseDefaults();
+                    btr.AppendEntity(pl);
+                    trans.AddNewlyCreatedDBObject(pl, true);
+                    trans.Commit();
+                }
+                catch (System.Exception ex)
+                {
+                    doc.Editor.WriteMessage("Error encountered : " + ex.Message);
+                    trans.Abort();
+                }
+            }
+        }
         [CommandMethod("DrawArc")]
         public void DrawArc()
         {

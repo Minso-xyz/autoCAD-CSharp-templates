@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ICz8fTMOYvs4ph3Kkb7yyG3CyYerZMGwDc+AD47V0tF49WppROGaz+cGPMEFGZzb3/6lGqxK+ToT1yGqHbMQtw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\minso\\source\\repos\\DrawObject\\DrawObject\\DrawObject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\minso\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\minso\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

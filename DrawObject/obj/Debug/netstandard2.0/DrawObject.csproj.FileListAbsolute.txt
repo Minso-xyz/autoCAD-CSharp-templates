@@ -1,0 +1,8 @@
+C:\Users\minso\source\repos\DrawObject\DrawObject\bin\Debug\netstandard2.0\DrawObject.deps.json
+C:\Users\minso\source\repos\DrawObject\DrawObject\bin\Debug\netstandard2.0\DrawObject.dll
+C:\Users\minso\source\repos\DrawObject\DrawObject\bin\Debug\netstandard2.0\DrawObject.pdb
+C:\Users\minso\source\repos\DrawObject\DrawObject\obj\Debug\netstandard2.0\DrawObject.AssemblyInfoInputs.cache
+C:\Users\minso\source\repos\DrawObject\DrawObject\obj\Debug\netstandard2.0\DrawObject.AssemblyInfo.cs
+C:\Users\minso\source\repos\DrawObject\DrawObject\obj\Debug\netstandard2.0\DrawObject.csproj.CoreCompileInputs.cache
+C:\Users\minso\source\repos\DrawObject\DrawObject\obj\Debug\netstandard2.0\DrawObject.dll
+C:\Users\minso\source\repos\DrawObject\DrawObject\obj\Debug\netstandard2.0\DrawObject.pdb

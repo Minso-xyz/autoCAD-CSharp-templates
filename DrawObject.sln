@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawObject", "DrawObject\DrawObject.csproj", "{E82F621A-CA4F-4A4F-BC4B-F91F5462DB9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82F621A-CA4F-4A4F-BC4B-F91F5462DB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82F621A-CA4F-4A4F-BC4B-F91F5462DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82F621A-CA4F-4A4F-BC4B-F91F5462DB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82F621A-CA4F-4A4F-BC4B-F91F5462DB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65DD9717-64EC-40EA-854E-B7B5C39CDE88}
+	EndGlobalSection
+EndGlobal
